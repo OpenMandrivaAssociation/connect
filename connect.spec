@@ -9,6 +9,7 @@ Summary:        Connect is a relaying command to make network connection via pro
 Source:         %{name}.tar.bz2
 URL:            http://www.taiyo.co.jp/~gotoh/ssh/connect.html
 Group:          Networking/Other 
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 License:	GPL
 
 %description
