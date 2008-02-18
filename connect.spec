@@ -5,7 +5,7 @@
 Name:           %{name} 
 Version:        %{version}
 Release:        %{release} 
-Summary:        Connect is a relaying command to make network connection via proxy
+Summary:        Relaying command to make network connection via proxy
 Source:         %{name}.tar.bz2
 URL:            http://www.taiyo.co.jp/~gotoh/ssh/connect.html
 Group:          Networking/Other 
