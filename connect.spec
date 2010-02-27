@@ -1,16 +1,16 @@
-%define name    connect
-%define version 1.96
-%define release %mkrel 4
+%define	name	connect
+%define	version	1.97
+%define	release	%mkrel 1
 
-Name:           %{name} 
-Version:        %{version}
-Release:        %{release} 
-Summary:        Relaying command to make network connection via proxy
-Source:         %{name}.tar.bz2
-URL:            http://www.taiyo.co.jp/~gotoh/ssh/connect.html
-Group:          Networking/Other 
+Name:		%{name} 
+Version:	%{version}
+Release:	%{release} 
+Summary:	Relaying command to make network connection via proxy
+Source:		%{name}.tar.bz2
+URL:		http://bent.latency.net/bent/git/goto-san-connect-1.85/src/connect.html
+Group:		Networking/Other 
 BuildRoot:	%{_tmppath}/%{name}-%{version}
-License:	GPL
+License:	GPLv2
 
 %description
 Connect is the simple relaying command to make network connection 
