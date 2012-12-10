@@ -52,3 +52,50 @@ rm -rf %{buildroot}
 %{_bindir}/connect
 %doc connect.html emacs-wiki.css
 
+
+
+%changelog
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 1.97-2mdv2011.0
++ Revision: 610156
+- rebuild
+
+* Sat Feb 27 2010 Sandro Cazzaniga <kharec@mandriva.org> 1.97-1mdv2010.1
++ Revision: 512284
+- Fix license
+- Fix mix of spaces and tabs
+- Fix URL
+- Update to 1.97
+
+* Wed Sep 02 2009 Thierry Vignaud <tv@mandriva.org> 1.96-4mdv2010.0
++ Revision: 424943
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 1.96-3mdv2009.0
++ Revision: 243626
+- rebuild
+
+* Sun Mar 02 2008 Michael Scherer <misc@mandriva.org> 1.96-1mdv2008.1
++ Revision: 177658
+- update to new version 1.96
+
+* Mon Feb 18 2008 Thierry Vignaud <tv@mandriva.org> 1.93-3mdv2008.1
++ Revision: 170788
+- rebuild
+- fix "foobar is blabla" summary (=> "blabla") so that it looks nice in rpmdrake
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 1.93-2mdv2008.1
++ Revision: 136335
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - import connect
+
+
+* Fri Jun 23 2006 Eskild Hustvedt <eskild@mandriva.org> 1.93-2mdv
+- Yearly rebuild
+
+* Mon May 23 2005 Eskild Hustvedt <eskild@mandriva.org> 1.93-1mdk
+- Minor spec cleanup
+- From Patrice Ferlet <metal3d@copix.org>
+	- First build
