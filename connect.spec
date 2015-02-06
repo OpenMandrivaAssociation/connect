@@ -1,6 +1,6 @@
 %define	name	connect
 %define	version	1.97
-%define	release	%mkrel 2
+%define release	3
 
 Name:		%{name} 
 Version:	%{version}
