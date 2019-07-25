@@ -3,7 +3,7 @@
 %define release	3
 
 Name:		%{name} 
-Version:	%{version}
+Version:	1.105
 Release:	1
 Summary:	Relaying command to make network connection via proxy
 Source:		%{name}.tar.bz2
