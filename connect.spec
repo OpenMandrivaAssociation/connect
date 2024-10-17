@@ -7,7 +7,7 @@ Version:	1.105
 Release:	1
 Summary:	Relaying command to make network connection via proxy
 Source:		%{name}.tar.bz2
-URL:		http://bent.latency.net/bent/git/goto-san-connect-1.85/src/connect.html
+URL:		https://bent.latency.net/bent/git/goto-san-connect-1.85/src/connect.html
 Group:		Networking/Other 
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 License:	GPLv2
